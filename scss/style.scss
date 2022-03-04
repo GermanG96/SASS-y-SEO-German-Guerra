@@ -1,0 +1,21 @@
+    @import 'base/colores';
+    @import 'base/variables';
+    @import 'base/mixins';
+    @import 'base/mapas';
+    @import 'base/extend';
+    @import 'components/header';
+    @import 'components/main';
+    @import 'components/footer';
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    

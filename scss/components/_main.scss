@@ -1,0 +1,15 @@
+
+    .main-container {
+        background-color: white;
+        margin: 20px 20px;
+        .section-container {
+            background-color: $s-bg-color;
+            .sub-titulos {
+                background-color: $h2-bg-color;
+                .parrafos {
+                    font-size: $p-font-size;
+                    @include fontStyle;
+                }
+            }
+        }
+    }

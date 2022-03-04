@@ -1,0 +1,21 @@
+.header-container {
+    background-color: $h-bg-color ;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    margin: 20px 20px;
+    
+    border: $header-border;
+
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+
+             .item-navbar {
+                border: $section-border;
+
+             }
+         }   
+
+}

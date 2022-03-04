@@ -1,0 +1,52 @@
+.header-container {
+  background-color: yellow;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  margin: 20px 20px;
+  border: 2px solid orange;
+}
+.header-container .navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.header-container .navbar .item-navbar {
+  border: 2px solid blue;
+}
+
+.main-container {
+  background-color: white;
+  margin: 20px 20px;
+}
+.main-container .section-container {
+  background-color: gray;
+}
+.main-container .section-container .sub-titulos {
+  background-color: red;
+}
+.main-container .section-container .sub-titulos .parrafos {
+  font-size: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine;
+  margin: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
